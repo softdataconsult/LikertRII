@@ -11,16 +11,18 @@ Description: Computes the Relative Importance Index (RII), together with
     the kind widely used in environmental, construction, engineering and
     social science research. RII is a simple 0-1 index defined as the sum
     of respondent weights divided by (highest weight x number of
-    respondents); it is normally calculated by hand in a spreadsheet.
+    respondents), as described in Holt (2014)
+    <doi:10.1108/CI-06-2012-0035>; it is normally calculated by hand in a
+    spreadsheet.
     This package computes it from raw item-level responses, ready-made
-    frequency tables, or straight from an Excel, CSV or SPSS file, on any
+    frequency tables, or straight from an 'Excel', 'CSV' or 'SPSS' file, on any
     Likert scale range and with optional reverse-scoring of negatively-
     worded items. Real-world survey exports are handled directly: item
     columns can be auto-detected from naming conventions or from text
     Likert wording ("Strongly Agree", "Disagree", ...), even when mixed
     in with demographic or ID columns. Items are ranked automatically,
     classified into importance bands used in the literature, and rendered
-    as a publication-style bar chart or a formatted Excel workbook. Two
+    as a publication-style bar chart or a formatted 'Excel' workbook. Two
     worked Nigerian examples are included, on construction and on
     agriculture.
 License: MIT + file LICENSE
