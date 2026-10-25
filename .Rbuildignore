@@ -7,3 +7,6 @@
 ^class_attd_rii_results\.xlsx$
 ^maintenance_rii_results\.xlsx$
 ^methodology and citation\.docx$
+^cran-comments\.md$
+^\.RData$
+^\.Rhistory$

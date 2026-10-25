@@ -28,12 +28,14 @@
 #' @return Invisibly, \code{path}.
 #'
 #' @examples
-#' data(building_collapse_nigeria)
-#' tbl <- rii_table(building_collapse_nigeria[, 5:14])
-#' out <- tempfile(fileext = ".xlsx")
-#' write_rii_excel(tbl, out)
-#' file.exists(out)
-#' unlink(out)
+#' if (requireNamespace("openxlsx", quietly = TRUE)) {
+#'   data(building_collapse_nigeria)
+#'   tbl <- rii_table(building_collapse_nigeria[, 5:14])
+#'   out <- tempfile(fileext = ".xlsx")
+#'   write_rii_excel(tbl, out)
+#'   file.exists(out)
+#'   unlink(out)
+#' }
 #'
 #' @export
 write_rii_excel <- function(tbl, path, sheet = "RII Results",

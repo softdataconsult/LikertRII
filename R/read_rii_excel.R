@@ -61,15 +61,17 @@
 #'   \code{\link{rii_table}}.
 #'
 #' @examples
-#' # One row per respondent (bundled example workbook)
-#' raw_path <- system.file("extdata", "rii_raw_example.xlsx", package = "RII")
-#' read_rii_excel(raw_path, layout = "raw",
-#'                 items = c("SubstandardMaterials", "PoorSupervision",
-#'                           "InadequateSoilInvestigation", "PoorWorkmanship"))
+#' if (requireNamespace("readxl", quietly = TRUE)) {
+#'   # One row per respondent (bundled example workbook)
+#'   raw_path <- system.file("extdata", "rii_raw_example.xlsx", package = "RII")
+#'   read_rii_excel(raw_path, layout = "raw",
+#'                   items = c("SubstandardMaterials", "PoorSupervision",
+#'                             "InadequateSoilInvestigation", "PoorWorkmanship"))
 #'
-#' # One row per factor, columns are counts for SD/D/N/A/SA
-#' freq_path <- system.file("extdata", "rii_freq_example.xlsx", package = "RII")
-#' read_rii_excel(freq_path, layout = "freq", item_col = "Factor")
+#'   # One row per factor, columns are counts for SD/D/N/A/SA
+#'   freq_path <- system.file("extdata", "rii_freq_example.xlsx", package = "RII")
+#'   read_rii_excel(freq_path, layout = "freq", item_col = "Factor")
+#' }
 #'
 #' @export
 read_rii_excel <- function(path, layout = c("raw", "freq"), sheet = 1,
