@@ -27,6 +27,13 @@
 #' @param cex.names Starting character expansion for the item labels,
 #'   passed to \code{\link[graphics]{barplot}}. Also only a starting
 #'   point when the window is small; see \code{max_label_chars}.
+#' @param pretty_labels Logical; if \code{TRUE} (default), item names written
+#'   as CamelCase or with underscores/dots (e.g. \code{"SubstandardMaterials"},
+#'   \code{"Q1_Notify_Staff"}) are split into separate words for display
+#'   (\code{"Substandard Materials"}). Names that already contain spaces are
+#'   left unchanged. Set to \code{FALSE} to show names exactly as stored.
+#' @param wrap_width Maximum characters per line before an item label is
+#'   wrapped onto a new line. Defaults to 22.
 #' @param ... Further arguments passed on to \code{\link[graphics]{barplot}}.
 #'
 #' @return Invisibly, the bar midpoints returned by
@@ -42,21 +49,40 @@
 plot.rii_table <- function(x, top_n = NULL, col = "#008751",
                             main = "Relative Importance Index",
                             show_values = TRUE, max_label_chars = 28,
-                            cex.names = 1, ...) {
+                            cex.names = 1, pretty_labels = TRUE,
+                            wrap_width = 22, ...) {
   d <- x[order(x$Rank), ]
   if (!is.null(top_n)) d <- d[seq_len(min(top_n, nrow(d))), ]
   # Plot with the top-ranked item at the top of the chart
   d <- d[rev(seq_len(nrow(d))), ]
 
+  items <- as.character(d$Item)
+  if (isTRUE(pretty_labels)) items <- prettify_item_names(items)
+
+  # Wrap each label onto several lines (at most `width` characters per
+  # line), then truncate any single over-long word with "...".
   make_labels <- function(chars) {
-    ifelse(nchar(d$Item) > chars,
-           paste0(substr(d$Item, 1, chars - 3), "..."),
-           d$Item)
+    width <- max(5, min(wrap_width, chars))
+    vapply(items, function(s) {
+      lines <- strwrap(s, width = width)
+      if (length(lines) == 0) lines <- ""
+      lines <- ifelse(nchar(lines) > chars,
+                      paste0(substr(lines, 1, chars - 3), "..."),
+                      lines)
+      paste(lines, collapse = "\n")
+    }, character(1), USE.NAMES = FALSE)
   }
 
-  draw_once <- function(chars, mult, cex_n) {
+  draw_once <- function(chars, mult, cex_n, check_fit = TRUE) {
     labels <- make_labels(chars)
-    mar_left <- max(nchar(labels)) * mult + 4
+    longest_line <- max(nchar(unlist(strsplit(labels, "\n", fixed = TRUE))))
+    mar_left <- longest_line * mult + 4
+    # Reject a label margin that would squeeze the bars into a sliver on a
+    # small device, so the next, more compact attempt is used instead.
+    if (check_fit) {
+      avail <- 0.45 * graphics::par("din")[1] / graphics::par("csi")
+      if (mar_left > avail) stop("label margin too wide for device")
+    }
     op <- graphics::par(mar = c(5, mar_left, 4, 3))
     on.exit(graphics::par(op))
 
@@ -88,9 +114,11 @@ plot.rii_table <- function(x, top_n = NULL, col = "#008751",
 
   bp <- NULL
   last_error <- NULL
-  for (a in attempts) {
+  for (i in seq_along(attempts)) {
+    a <- attempts[[i]]
     bp <- tryCatch(
-      draw_once(a[["chars"]], a[["mult"]], a[["cex"]]),
+      draw_once(a[["chars"]], a[["mult"]], a[["cex"]],
+                check_fit = i < length(attempts)),
       error = function(e) { last_error <<- e; NULL }
     )
     if (!is.null(bp)) break
@@ -107,4 +135,17 @@ plot.rii_table <- function(x, top_n = NULL, col = "#008751",
     )
   }
   invisible(bp)
+}
+
+# Split CamelCase / snake_case / dotted item names into spaced words for
+# display. Names that already contain spaces are returned untouched.
+#' @noRd
+prettify_item_names <- function(x) {
+  vapply(x, function(s) {
+    if (is.na(s) || grepl(" ", s, fixed = TRUE)) return(s)
+    s <- gsub("[._]+", " ", s)
+    s <- gsub("([a-z0-9])([A-Z])", "\\1 \\2", s)
+    s <- gsub("([A-Z]+)([A-Z][a-z])", "\\1 \\2", s)
+    trimws(gsub("\\s+", " ", s))
+  }, character(1), USE.NAMES = FALSE)
 }

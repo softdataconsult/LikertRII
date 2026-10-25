@@ -12,6 +12,8 @@
   show_values = TRUE,
   max_label_chars = 28,
   cex.names = 1,
+  pretty_labels = TRUE,
+  wrap_width = 22,
   ...
 )
 }
@@ -40,6 +42,15 @@ smaller \code{cex.names}) are tried automatically before giving up.}
 \item{cex.names}{Starting character expansion for the item labels,
 passed to \code{\link[graphics]{barplot}}. Also only a starting
 point when the window is small; see \code{max_label_chars}.}
+
+\item{pretty_labels}{Logical; if \code{TRUE} (default), item names written
+as CamelCase or with underscores/dots (e.g. \code{"SubstandardMaterials"},
+\code{"Q1_Notify_Staff"}) are split into separate words for display
+(\code{"Substandard Materials"}). Names that already contain spaces are
+left unchanged. Set to \code{FALSE} to show names exactly as stored.}
+
+\item{wrap_width}{Maximum characters per line before an item label is
+wrapped onto a new line. Defaults to 22.}
 
 \item{...}{Further arguments passed on to \code{\link[graphics]{barplot}}.}
 }

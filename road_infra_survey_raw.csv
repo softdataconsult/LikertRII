@@ -1,0 +1,201 @@
+Timestamp,1. Gender,2. Age,3. School/Department,4. Level,5. Residence type,6. Approximate distance from residence to campus,7. Primary mode of transport to campus,8. Average daily commuting time (one-way),"9. Average daily transport cost, one-way (₦)",B1,B2,B3,B4,B5,B6,B7,C1,C2,C3,C4,C5,C6,D1,D2,D3,D4,D5,19. Current CGPA (if comfortable sharing),20. Approximate attendance rate this semester,21. How many times have you been marked late to class in the past month?
+12/11/2024 8:01,Male,18–22,Statistics,HND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,485,4,4,3,3,5,3,3,3,1,3,2,4,3,1,1,1,2,1,3.5 and above,Below 50%,1–3
+12/18/2024 11:15,Male,18–22,Accountancy,ND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,705,2,4,2,3,4,2,2,3,4,3,1,1,2,1,2,2,1,4,3.0–3.49,70–89%,More than 6
+11/15/2024 9:47,Male,18–22,Computer Science,HND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,749,,3,4,3,1,4,5,2,3,3,3,5,5,2,4,3,2,1,Below 2.0,70–89%,0
+11/7/2024 17:47,Male,>26,Business Admin,ND II,Off-campus (private),2–5km,Personal vehicle/motorcycle,30–60 mins,399,4,5,2,2,3,3,3,3,3,2,3,3,5,2,1,2,3,1,3.0–3.49,70–89%,0
+12/28/2024 15:05,Female,18–22,Civil Engineering,HND I,Off-campus (private),5–10km,Public transport (bus/taxi),>60 mins,494,4,2,5,4,3,3,4,1,1,1,1,1,2,1,1,1,1,3,,70–89%,0
+12/8/2024 13:02,Female,23–26,Business Admin,ND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,306,,4,3,1,1,4,3,5,5,5,5,4,4,2,1,2,1,4,2.0–2.99,70–89%,More than 6
+11/2/2024 8:13,Male,18–22,Civil Engineering,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,435,2,1,3,3,3,3,4,1,1,2,1,2,1,1,1,,2,1,3.0–3.49,50–69%,0
+11/15/2024 15:38,Female,18–22,Computer Science,ND II,On-campus hostel,<2km,Walking,15–30 mins,169,2,3,1,3,3,4,3,3,3,1,1,1,3,2,1,3,2,3,Below 2.0,90% and above,0
+11/2/2024 15:12,Female,18–22,Computer Science,HND I,Off-campus (private),<2km,Commercial motorcycle (Okada),<15 mins,613,4,4,3,3,2,3,2,2,2,2,2,1,1,1,1,1,2,2,3.5 and above,70–89%,0
+12/16/2024 17:44,Female,18–22,Computer Science,ND I,Off-campus (private),>10km,Public transport (bus/taxi),>60 mins,277,4,2,3,4,5,2,3,1,4,2,1,2,2,3,3,3,1,2,Below 2.0,50–69%,0
+12/5/2024 13:14,Male,23–26,Statistics,ND II,On-campus hostel,<2km,Personal vehicle/motorcycle,15–30 mins,114,5,2,5,5,5,1,4,1,1,1,2,2,2,2,1,2,2,3,3.0–3.49,90% and above,1–3
+11/29/2024 16:17,Male,18–22,Mass Communication,ND II,On-campus hostel,<2km,Walking,<15 mins,163,1,4,3,3,1,3,3,5,2,4,4,4,1,4,5,3,4,4,Below 2.0,50–69%,More than 6
+12/22/2024 20:00,Male,23–26,Civil Engineering,ND II,Off-campus (private),2–5km,Personal vehicle/motorcycle,15–30 mins,757,3,2,4,2,2,2,3,1,1,1,2,1,,2,1,2,1,3,3.0–3.49,70–89%,1–3
+12/19/2024 19:10,Female,23–26,Mass Communication,HND I,Off-campus (private),<2km,Public transport (bus/taxi),15–30 mins,417,4,3,3,3,3,3,2,4,4,4,3,4,5,5,4,5,3,4,2.0–2.99,Below 50%,1–3
+12/15/2024 13:21,Male,>26,Statistics,HND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),>60 mins,468,2,3,1,2,2,3,3,5,4,4,4,3,2,3,2,2,4,1,3.0–3.49,Below 50%,More than 6
+11/18/2024 9:13,Male,18–22,Statistics,HND I,Off-campus (private),5–10km,Personal vehicle/motorcycle,>60 mins,483,2,3,2,3,4,4,4,2,5,2,2,1,4,1,1,2,2,1,3.5 and above,70–89%,0
+12/19/2024 12:06,Male,18–22,Electrical Engineering,ND I,On-campus hostel,<2km,Other,15–30 mins,46,2,2,2,3,4,3,2,4,5,3,5,1,1,2,2,4,2,1,3.5 and above,50–69%,0
+11/6/2024 13:06,Female,18–22,Business Admin,HND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,604,2,1,3,1,4,3,3,,4,5,,4,4,5,5,5,4,3,2.0–2.99,50–69%,1–3
+11/23/2024 20:22,Male,>26,Business Admin,ND II,On-campus hostel,<2km,Other,15–30 mins,146,3,4,3,4,4,3,4,2,3,3,2,3,2,2,1,2,,4,3.5 and above,Below 50%,0
+12/9/2024 11:51,Female,>26,Accountancy,ND I,Off-campus (private),5–10km,Walking,>60 mins,294,3,4,2,5,,3,2,4,4,3,4,4,4,2,1,2,4,3,3.0–3.49,70–89%,1–3
+11/3/2024 18:29,Female,18–22,Banking & Finance,ND I,Off-campus (private),5–10km,Public transport (bus/taxi),>60 mins,777,3,3,3,2,1,,3,3,2,3,4,2,2,3,3,2,3,3,3.5 and above,70–89%,0
+12/5/2024 8:59,Male,23–26,Statistics,ND II,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,321,2,3,4,3,5,4,4,2,2,1,5,2,4,2,2,3,3,3,3.0–3.49,90% and above,0
+11/25/2024 8:35,Female,18–22,Civil Engineering,HND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,160,2,,2,2,2,2,1,,5,4,4,3,4,3,2,1,1,1,3.0–3.49,Below 50%,0
+11/19/2024 20:40,Male,23–26,Electrical Engineering,HND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),>60 mins,228,4,3,2,4,,3,3,2,4,2,3,2,5,2,2,2,1,1,3.0–3.49,90% and above,1–3
+12/10/2024 21:55,Female,18–22,Electrical Engineering,HND I,Off-campus (private),<2km,Commercial motorcycle (Okada),<15 mins,784,1,2,3,2,2,4,3,5,5,4,3,3,2,2,4,3,3,2,3.5 and above,70–89%,0
+11/24/2024 16:12,Male,23–26,Banking & Finance,ND II,Off-campus (private),2–5km,Personal vehicle/motorcycle,15–30 mins,255,2,5,5,4,2,,2,1,1,1,2,1,2,2,1,1,2,1,3.0–3.49,90% and above,4–6
+12/16/2024 8:02,Female,18–22,Mass Communication,ND II,Off-campus (private),<2km,Public transport (bus/taxi),<15 mins,477,3,2,3,4,4,4,3,1,1,2,1,2,2,1,2,2,2,2,3.0–3.49,70–89%,0
+12/13/2024 10:49,Female,23–26,Banking & Finance,ND I,Off-campus (private),2–5km,Public transport (bus/taxi),30–60 mins,721,,4,1,5,1,4,2,4,2,,5,4,4,1,3,3,2,2,3.0–3.49,50–69%,More than 6
+11/19/2024 8:54,Female,23–26,Banking & Finance,ND II,Off-campus (private),2–5km,Public transport (bus/taxi),30–60 mins,685,2,4,4,2,4,4,2,3,5,4,2,3,4,4,2,5,3,4,2.0–2.99,70–89%,More than 6
+11/15/2024 20:06,Female,23–26,Banking & Finance,ND II,Off-campus (private),<2km,Commercial motorcycle (Okada),<15 mins,536,,3,2,1,4,3,3,3,2,4,2,3,2,1,1,2,2,1,,Below 50%,More than 6
+11/25/2024 11:29,Male,<18,Business Admin,ND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,306,3,5,4,1,3,3,2,4,4,3,4,5,5,1,3,1,2,2,2.0–2.99,70–89%,More than 6
+12/11/2024 20:23,Female,18–22,Statistics,ND I,On-campus hostel,2–5km,Personal vehicle/motorcycle,30–60 mins,194,,2,3,3,3,1,2,3,3,3,3,4,3,2,5,3,2,2,2.0–2.99,70–89%,0
+11/11/2024 12:22,Female,18–22,Accountancy,ND II,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,579,2,3,2,4,2,3,3,2,5,2,2,3,1,3,3,4,2,4,3.5 and above,90% and above,0
+11/14/2024 17:17,Female,18–22,Statistics,HND I,Off-campus (private),>10km,Public transport (bus/taxi),30–60 mins,439,2,4,1,,3,3,1,3,4,2,4,4,4,3,3,3,2,2,3.0–3.49,90% and above,1–3
+12/15/2024 21:43,Male,18–22,Mass Communication,HND II,On-campus hostel,<2km,Commercial motorcycle (Okada),15–30 mins,174,4,3,3,2,2,2,3,3,3,3,4,3,,2,2,2,2,1,,50–69%,0
+12/12/2024 8:38,Female,>26,Computer Science,HND II,On-campus hostel,<2km,Walking,<15 mins,192,3,1,4,4,2,2,4,3,1,1,1,3,1,3,5,2,4,3,Below 2.0,50–69%,0
+12/11/2024 9:34,Female,18–22,Banking & Finance,HND I,On-campus hostel,2–5km,Walking,30–60 mins,156,2,3,5,,3,3,4,3,4,2,1,1,1,1,1,1,1,1,3.0–3.49,Below 50%,More than 6
+12/17/2024 10:10,Female,18–22,Statistics,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,639,3,2,4,3,4,3,3,1,1,2,,2,1,2,1,2,1,2,3.5 and above,70–89%,0
+11/30/2024 13:17,Male,18–22,Mass Communication,HND I,Off-campus (private),<2km,Public transport (bus/taxi),<15 mins,491,3,3,3,2,2,3,3,4,5,4,4,4,2,4,4,3,3,,3.5 and above,50–69%,4–6
+12/30/2024 17:44,Female,18–22,Computer Science,HND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),>60 mins,776,3,,2,3,1,3,1,4,5,4,3,5,4,4,2,2,3,3,3.0–3.49,50–69%,More than 6
+12/6/2024 10:43,Male,23–26,Computer Science,ND I,Off-campus (private),5–10km,Personal vehicle/motorcycle,>60 mins,674,2,4,1,3,3,2,2,5,4,5,5,5,5,3,1,2,1,1,,Below 50%,4–6
+11/21/2024 20:49,Female,18–22,Banking & Finance,ND II,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,633,3,2,2,1,2,4,3,4,2,4,3,4,5,4,4,3,4,2,3.5 and above,70–89%,4–6
+12/20/2024 7:14,Male,>26,Accountancy,HND I,Off-campus (private),<2km,Public transport (bus/taxi),<15 mins,169,3,3,4,4,4,2,4,4,,2,3,3,1,1,1,1,2,2,3.5 and above,70–89%,4–6
+12/23/2024 7:51,Female,18–22,Civil Engineering,ND II,Off-campus (private),<2km,Other,<15 mins,504,3,5,1,3,,5,2,5,4,4,4,5,5,3,2,3,3,2,3.0–3.49,90% and above,0
+11/21/2024 13:17,Female,>26,Business Admin,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,707,2,4,1,3,3,4,1,2,,1,2,2,,1,3,1,1,1,3.0–3.49,70–89%,0
+11/5/2024 10:58,Male,23–26,Statistics,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,774,3,2,3,3,3,2,2,3,3,3,1,2,2,3,2,4,2,1,3.0–3.49,90% and above,More than 6
+12/31/2024 16:56,Female,18–22,Computer Science,ND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,690,3,3,2,1,4,4,3,4,1,3,4,3,5,1,3,2,3,2,3.0–3.49,70–89%,More than 6
+12/16/2024 12:13,Male,>26,Statistics,ND II,On-campus hostel,<2km,Walking,<15 mins,60,2,2,1,5,5,3,,2,2,2,1,2,1,2,,,1,1,3.0–3.49,90% and above,4–6
+12/12/2024 14:25,Female,18–22,Civil Engineering,ND II,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,219,4,,4,4,3,2,3,2,3,1,2,1,1,3,2,2,3,5,3.0–3.49,70–89%,0
+12/27/2024 21:41,Female,23–26,Business Admin,ND I,Off-campus (private),>10km,Public transport (bus/taxi),>60 mins,789,1,4,1,1,1,4,3,,5,5,5,4,5,3,2,1,1,2,Below 2.0,70–89%,More than 6
+11/30/2024 9:16,Female,18–22,Civil Engineering,ND I,Off-campus (private),2–5km,Public transport (bus/taxi),30–60 mins,787,3,,4,4,4,3,3,3,1,1,3,3,4,3,1,1,2,1,3.0–3.49,90% and above,0
+11/9/2024 10:47,Female,23–26,Business Admin,HND I,On-campus hostel,<2km,Walking,<15 mins,87,4,2,4,2,4,3,3,1,2,1,2,2,1,1,1,1,1,2,3.0–3.49,90% and above,0
+12/6/2024 15:16,Female,23–26,Electrical Engineering,ND I,On-campus hostel,<2km,Public transport (bus/taxi),15–30 mins,25,5,3,3,3,3,,3,3,3,2,2,1,2,1,2,3,1,3,3.5 and above,70–89%,0
+12/18/2024 16:27,Male,23–26,Business Admin,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,465,2,4,4,2,2,4,2,4,3,2,2,3,3,2,2,1,2,2,3.0–3.49,Below 50%,1–3
+12/28/2024 16:25,Male,23–26,Banking & Finance,ND I,On-campus hostel,<2km,Walking,<15 mins,70,5,2,4,5,4,1,3,2,1,2,1,1,1,3,1,1,1,1,3.5 and above,70–89%,0
+11/24/2024 10:08,Female,18–22,Accountancy,HND II,Off-campus (private),5–10km,Walking,>60 mins,603,3,4,2,2,2,4,3,3,5,2,3,4,3,2,1,4,2,2,3.0–3.49,Below 50%,0
+12/3/2024 14:05,Female,18–22,Civil Engineering,ND I,On-campus hostel,<2km,Walking,15–30 mins,68,2,4,3,3,5,5,2,,1,1,1,2,3,1,1,1,1,1,3.5 and above,Below 50%,0
+12/19/2024 7:55,Female,18–22,Computer Science,ND II,Off-campus (private),5–10km,Walking,30–60 mins,203,4,3,3,2,2,5,2,1,1,4,2,2,5,3,3,4,3,2,3.5 and above,50–69%,1–3
+11/8/2024 9:40,Female,18–22,Banking & Finance,HND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,176,3,3,5,3,3,2,,1,1,1,1,2,3,,3,3,2,3,,70–89%,1–3
+11/11/2024 19:43,Male,23–26,Electrical Engineering,HND I,Off-campus (private),5–10km,Other,>60 mins,329,4,1,3,3,5,1,1,5,4,4,4,,5,3,3,4,3,3,3.5 and above,70–89%,4–6
+11/28/2024 16:04,Female,18–22,Accountancy,ND I,Off-campus (private),2–5km,Public transport (bus/taxi),15–30 mins,357,2,3,1,2,2,4,3,,5,5,5,5,2,,2,,3,3,Below 2.0,70–89%,0
+11/25/2024 13:38,Male,>26,Statistics,HND I,On-campus hostel,2–5km,Public transport (bus/taxi),30–60 mins,57,5,1,5,4,4,1,5,1,2,1,2,3,1,1,2,2,1,1,3.0–3.49,70–89%,0
+11/30/2024 15:16,Male,23–26,Banking & Finance,ND II,On-campus hostel,2–5km,Other,15–30 mins,48,4,,2,1,4,1,4,1,3,2,2,3,2,1,1,2,2,2,Below 2.0,70–89%,1–3
+12/6/2024 20:00,Male,23–26,Civil Engineering,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,281,3,3,3,1,1,3,3,3,5,3,3,5,1,4,2,3,2,5,2.0–2.99,70–89%,1–3
+12/14/2024 18:07,Male,18–22,Mass Communication,ND I,Off-campus (private),5–10km,Public transport (bus/taxi),>60 mins,649,,,,,,,,,,,,,,,,,,,3.5 and above,70–89%,0
+12/14/2024 21:34,Male,23–26,Mass Communication,ND I,Off-campus (private),5–10km,Other,>60 mins,787,4,2,3,4,4,1,3,1,2,2,2,2,3,2,3,3,2,4,Below 2.0,90% and above,1–3
+12/19/2024 11:49,Male,>26,Computer Science,HND I,Off-campus (private),<2km,Personal vehicle/motorcycle,15–30 mins,126,3,5,2,2,2,2,1,5,5,5,4,5,5,3,5,4,3,4,2.0–2.99,Below 50%,More than 6
+12/12/2024 12:07,Female,18–22,Business Admin,ND II,Off-campus (private),5–10km,Public transport (bus/taxi),>60 mins,375,2,3,1,2,3,3,3,4,3,5,,4,4,1,5,2,3,4,3.0–3.49,Below 50%,0
+11/19/2024 13:10,Male,23–26,Computer Science,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,751,4,3,3,3,3,2,4,3,3,3,2,3,4,1,2,3,3,3,3.0–3.49,70–89%,0
+11/30/2024 7:46,Male,23–26,Mass Communication,HND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),>60 mins,398,3,3,3,3,4,2,4,4,1,2,1,2,1,4,4,3,2,3,3.0–3.49,50–69%,0
+12/27/2024 18:16,Male,18–22,Statistics,HND I,On-campus hostel,<2km,Personal vehicle/motorcycle,15–30 mins,130,5,1,5,5,4,1,4,2,3,1,1,3,3,1,4,1,1,1,3.5 and above,70–89%,0
+12/3/2024 19:11,Male,18–22,Electrical Engineering,ND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,579,4,4,3,4,,2,5,3,3,2,3,3,3,3,2,4,4,3,Below 2.0,50–69%,0
+12/3/2024 21:06,Male,18–22,Electrical Engineering,HND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,672,2,4,3,2,4,5,1,5,3,2,4,4,4,1,2,3,2,2,3.0–3.49,50–69%,0
+12/26/2024 17:19,Male,18–22,Civil Engineering,ND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,557,3,2,4,4,5,2,2,4,5,,4,4,3,1,1,1,1,3,3.5 and above,50–69%,0
+12/24/2024 17:32,Female,18–22,Electrical Engineering,HND I,On-campus hostel,2–5km,Walking,30–60 mins,25,4,1,5,4,4,1,4,1,1,4,2,2,5,4,3,2,2,1,3.5 and above,70–89%,More than 6
+12/9/2024 10:09,Female,18–22,Civil Engineering,HND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),>60 mins,464,3,5,2,4,3,4,4,4,4,5,2,2,2,2,2,1,2,1,3.0–3.49,70–89%,4–6
+11/24/2024 19:10,Female,<18,Banking & Finance,HND II,Off-campus (private),2–5km,Personal vehicle/motorcycle,30–60 mins,774,3,5,4,4,2,2,3,4,3,3,3,,3,3,2,5,2,1,3.5 and above,70–89%,4–6
+12/5/2024 19:59,Male,18–22,Civil Engineering,ND I,Off-campus (private),2–5km,Public transport (bus/taxi),15–30 mins,450,4,3,3,1,5,2,2,4,5,5,5,5,3,1,2,2,3,1,3.0–3.49,Below 50%,More than 6
+12/4/2024 21:00,Male,>26,Banking & Finance,ND I,Off-campus (private),2–5km,Public transport (bus/taxi),30–60 mins,754,5,3,5,3,5,2,5,2,4,2,2,3,1,1,2,1,2,2,3.0–3.49,50–69%,0
+12/9/2024 12:31,Female,18–22,Civil Engineering,ND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,499,4,3,4,5,4,1,4,1,1,1,1,1,2,2,1,4,2,2,3.0–3.49,70–89%,1–3
+11/2/2024 8:59,Male,>26,Mass Communication,ND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,352,5,1,4,2,4,1,5,1,1,1,2,2,3,1,1,1,1,1,3.0–3.49,70–89%,0
+11/24/2024 21:53,Male,18–22,Mass Communication,ND I,On-campus hostel,<2km,Commercial motorcycle (Okada),15–30 mins,119,4,3,4,4,3,3,1,2,2,3,1,1,4,3,1,1,2,1,3.5 and above,90% and above,0
+12/22/2024 11:15,Male,18–22,Business Admin,HND II,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,798,1,3,4,3,4,4,4,2,2,1,,3,2,2,1,1,2,1,3.0–3.49,Below 50%,1–3
+11/4/2024 10:56,Male,18–22,Banking & Finance,ND I,On-campus hostel,<2km,Other,<15 mins,64,5,1,5,5,4,1,3,2,2,2,2,3,1,2,3,1,1,1,3.0–3.49,70–89%,1–3
+12/7/2024 8:05,Male,18–22,Accountancy,ND I,Off-campus (private),<2km,Commercial motorcycle (Okada),15–30 mins,607,2,5,3,2,2,5,2,4,,3,2,4,,3,1,3,3,4,3.5 and above,90% and above,More than 6
+12/17/2024 14:52,Male,18–22,Banking & Finance,HND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),>60 mins,403,4,2,2,2,3,5,4,2,3,1,4,1,1,3,2,1,2,2,3.0–3.49,70–89%,0
+11/5/2024 19:34,Female,23–26,Civil Engineering,ND II,On-campus hostel,<2km,Public transport (bus/taxi),15–30 mins,79,4,3,3,4,1,3,3,3,5,4,3,3,1,2,1,3,1,1,3.0–3.49,50–69%,More than 6
+12/20/2024 9:08,Male,18–22,Civil Engineering,HND I,Off-campus (private),2–5km,Walking,15–30 mins,697,2,3,3,5,4,5,4,3,5,4,3,3,3,3,3,1,2,4,3.0–3.49,90% and above,More than 6
+12/13/2024 14:35,Female,23–26,Accountancy,ND I,On-campus hostel,2–5km,Walking,15–30 mins,107,2,3,3,3,2,4,2,4,5,3,3,1,1,4,2,2,,3,2.0–2.99,70–89%,0
+11/11/2024 11:33,Female,23–26,Computer Science,ND II,Off-campus (private),<2km,Personal vehicle/motorcycle,<15 mins,514,4,3,3,3,2,3,3,4,5,3,3,3,2,1,2,2,2,3,3.5 and above,50–69%,0
+12/26/2024 16:27,Female,18–22,Civil Engineering,ND I,Off-campus (private),5–10km,Public transport (bus/taxi),>60 mins,561,3,2,2,1,3,3,4,4,4,2,3,2,5,4,3,3,3,3,Below 2.0,70–89%,0
+11/14/2024 21:34,Female,18–22,Business Admin,ND I,Off-campus (private),<2km,Public transport (bus/taxi),15–30 mins,213,1,3,4,4,3,3,3,2,4,1,3,4,1,,4,3,3,4,3.0–3.49,70–89%,More than 6
+12/19/2024 18:44,Female,23–26,Electrical Engineering,HND II,On-campus hostel,<2km,Personal vehicle/motorcycle,15–30 mins,156,,,,,,,,,,,,,,,,,,,3.0–3.49,70–89%,1–3
+11/13/2024 18:19,Male,18–22,Electrical Engineering,ND I,Off-campus (private),5–10km,Public transport (bus/taxi),>60 mins,455,4,2,4,1,3,3,4,1,2,2,1,1,1,2,1,3,1,1,3.5 and above,90% and above,0
+11/26/2024 17:41,Male,18–22,Statistics,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,794,2,4,1,1,1,5,1,4,5,,5,5,5,2,2,4,4,3,Below 2.0,50–69%,4–6
+11/24/2024 14:57,Male,>26,Statistics,ND II,Off-campus (private),2–5km,Public transport (bus/taxi),15–30 mins,306,4,1,3,1,4,2,2,2,1,4,2,2,3,1,1,1,3,1,,70–89%,0
+12/4/2024 14:07,Female,18–22,Electrical Engineering,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,334,3,4,3,4,4,4,3,2,2,1,3,2,1,1,1,2,1,1,3.0–3.49,90% and above,1–3
+11/16/2024 10:04,Female,23–26,Electrical Engineering,HND II,On-campus hostel,<2km,Walking,<15 mins,172,4,2,4,5,5,,4,1,2,,1,1,2,2,2,1,2,1,3.0–3.49,90% and above,0
+11/22/2024 7:37,Male,>26,Mass Communication,ND I,Off-campus (private),5–10km,Personal vehicle/motorcycle,>60 mins,454,2,3,3,3,3,4,4,3,1,1,1,2,1,,2,3,1,1,3.0–3.49,70–89%,4–6
+12/6/2024 10:37,Female,18–22,Business Admin,HND I,On-campus hostel,<2km,Walking,15–30 mins,130,3,3,4,4,4,2,3,2,1,2,2,3,,3,1,2,1,2,3.5 and above,Below 50%,1–3
+11/15/2024 7:04,Male,18–22,Accountancy,HND II,Off-campus (private),5–10km,Public transport (bus/taxi),>60 mins,307,3,4,2,3,3,4,,4,3,4,5,4,3,4,3,3,5,3,3.5 and above,70–89%,4–6
+12/16/2024 17:03,Female,18–22,Statistics,ND II,Off-campus (private),>10km,Public transport (bus/taxi),30–60 mins,224,2,3,2,3,2,2,3,3,3,3,4,3,4,4,2,3,3,3,Below 2.0,70–89%,0
+11/15/2024 8:57,Male,18–22,Mass Communication,HND II,On-campus hostel,<2km,Personal vehicle/motorcycle,<15 mins,173,3,3,3,4,,2,2,3,2,2,2,2,4,1,2,1,3,2,,70–89%,0
+11/3/2024 20:21,Male,18–22,Mass Communication,ND I,On-campus hostel,<2km,Walking,15–30 mins,29,,4,4,3,5,3,4,2,2,1,1,1,1,2,2,1,2,,3.5 and above,90% and above,0
+11/5/2024 15:15,Male,23–26,Accountancy,ND II,On-campus hostel,<2km,Walking,15–30 mins,56,4,3,4,5,5,3,4,2,3,4,1,2,3,4,1,4,2,3,Below 2.0,90% and above,0
+11/18/2024 17:31,Male,18–22,Mass Communication,ND I,Off-campus (private),>10km,Public transport (bus/taxi),30–60 mins,167,4,2,1,3,3,3,4,1,1,1,1,2,1,2,1,2,2,2,3.5 and above,70–89%,0
+11/14/2024 15:08,Male,18–22,Banking & Finance,HND I,Off-campus (private),<2km,Commercial motorcycle (Okada),15–30 mins,672,3,4,3,4,3,1,3,4,5,3,1,3,4,3,2,3,3,2,3.0–3.49,Below 50%,More than 6
+12/17/2024 21:56,Male,>26,Business Admin,HND II,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,640,4,4,3,2,4,1,5,,4,4,3,4,4,1,1,1,1,1,3.5 and above,70–89%,0
+12/7/2024 16:30,Female,23–26,Electrical Engineering,ND I,On-campus hostel,<2km,Walking,<15 mins,47,4,5,2,3,2,4,4,1,3,3,2,2,3,3,1,3,2,3,2.0–2.99,70–89%,0
+11/16/2024 19:30,Male,23–26,Civil Engineering,HND I,On-campus hostel,2–5km,Walking,15–30 mins,193,5,2,5,5,5,1,5,1,2,1,,2,4,2,1,2,2,1,3.0–3.49,70–89%,0
+12/22/2024 13:12,Male,18–22,Accountancy,ND I,Off-campus (private),5–10km,Personal vehicle/motorcycle,>60 mins,782,5,3,4,4,2,4,4,2,3,2,1,2,2,1,1,,2,1,3.0–3.49,70–89%,0
+11/7/2024 8:42,Female,23–26,Electrical Engineering,ND II,On-campus hostel,<2km,Personal vehicle/motorcycle,15–30 mins,21,2,5,2,3,3,4,3,1,1,2,3,,2,5,3,3,3,4,3.5 and above,50–69%,More than 6
+11/28/2024 12:27,Female,18–22,Electrical Engineering,ND II,Off-campus (private),<2km,Commercial motorcycle (Okada),<15 mins,173,2,4,1,1,4,5,2,4,5,5,4,5,5,5,3,4,4,4,3.5 and above,50–69%,1–3
+11/27/2024 14:55,Male,18–22,Computer Science,HND II,Off-campus (private),2–5km,Personal vehicle/motorcycle,30–60 mins,672,3,4,2,2,2,3,3,4,2,3,3,2,5,1,1,2,,3,3.0–3.49,50–69%,0
+12/17/2024 7:43,Male,18–22,Banking & Finance,HND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,764,1,5,2,2,1,5,1,5,4,5,5,5,3,4,5,4,5,3,Below 2.0,50–69%,4–6
+12/12/2024 17:06,Male,23–26,Accountancy,ND II,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,375,5,4,,3,4,2,4,4,2,1,1,1,1,2,2,1,2,1,2.0–2.99,70–89%,0
+11/4/2024 13:46,Male,18–22,Mass Communication,ND I,Off-campus (private),>10km,Public transport (bus/taxi),30–60 mins,147,5,2,3,,5,2,3,5,1,3,3,2,2,2,4,4,3,4,3.5 and above,50–69%,0
+11/22/2024 19:55,Female,18–22,Civil Engineering,ND I,On-campus hostel,<2km,Walking,<15 mins,115,5,1,5,3,4,2,5,2,2,3,3,3,3,1,1,1,1,1,3.0–3.49,70–89%,0
+11/7/2024 10:12,Male,18–22,Accountancy,ND I,On-campus hostel,<2km,Public transport (bus/taxi),15–30 mins,56,4,3,3,3,3,1,5,2,3,2,3,3,3,3,,5,3,4,Below 2.0,70–89%,0
+11/13/2024 15:28,Male,18–22,Mass Communication,ND I,On-campus hostel,<2km,Walking,<15 mins,48,3,3,2,3,,1,3,2,1,,1,2,2,,1,1,1,2,3.0–3.49,50–69%,0
+11/9/2024 13:11,Female,23–26,Electrical Engineering,HND II,Off-campus (private),2–5km,Personal vehicle/motorcycle,15–30 mins,794,5,2,3,4,2,2,5,1,3,2,2,2,1,1,1,1,1,1,3.0–3.49,90% and above,0
+11/18/2024 14:15,Male,23–26,Civil Engineering,ND II,On-campus hostel,<2km,Public transport (bus/taxi),15–30 mins,81,2,1,3,5,4,3,3,2,,2,3,2,2,1,2,2,2,4,3.5 and above,70–89%,More than 6
+12/26/2024 21:04,Female,23–26,Mass Communication,ND II,Off-campus (private),5–10km,Personal vehicle/motorcycle,30–60 mins,290,,5,2,4,1,5,1,4,5,3,5,4,4,4,3,2,2,3,3.0–3.49,70–89%,0
+11/29/2024 19:55,Male,<18,Business Admin,ND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,414,3,3,4,5,3,3,3,3,2,2,2,3,1,2,4,3,2,3,2.0–2.99,70–89%,4–6
+12/25/2024 15:06,Female,18–22,Mass Communication,HND II,Off-campus (private),<2km,Commercial motorcycle (Okada),15–30 mins,662,3,5,3,3,4,1,2,,3,3,3,1,1,3,2,2,2,2,3.0–3.49,70–89%,1–3
+11/4/2024 17:34,Male,18–22,Computer Science,HND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,760,1,4,3,3,2,,2,4,5,5,5,5,5,1,3,3,,3,2.0–2.99,50–69%,4–6
+12/24/2024 7:05,Female,<18,Banking & Finance,ND I,On-campus hostel,<2km,Public transport (bus/taxi),15–30 mins,19,4,3,3,3,4,2,2,4,4,5,2,3,1,3,1,3,3,2,Below 2.0,70–89%,4–6
+12/30/2024 19:54,Female,18–22,Electrical Engineering,HND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,212,3,2,2,4,2,4,3,,2,3,3,2,4,3,3,4,2,1,Below 2.0,70–89%,0
+11/16/2024 9:26,Male,23–26,Mass Communication,ND II,Off-campus (private),2–5km,Public transport (bus/taxi),30–60 mins,269,5,2,4,4,5,2,4,1,1,2,1,3,2,2,2,2,2,3,3.0–3.49,90% and above,1–3
+12/2/2024 14:13,Female,18–22,Banking & Finance,ND I,On-campus hostel,<2km,Walking,15–30 mins,66,4,2,1,5,4,2,3,4,3,3,1,3,3,3,5,3,3,4,Below 2.0,70–89%,4–6
+12/26/2024 13:57,Female,18–22,Statistics,ND II,On-campus hostel,<2km,Personal vehicle/motorcycle,<15 mins,82,2,3,3,4,3,3,3,4,4,2,3,3,2,2,3,3,3,3,2.0–2.99,Below 50%,4–6
+11/4/2024 9:24,Female,18–22,Statistics,ND II,Off-campus (private),2–5km,Public transport (bus/taxi),15–30 mins,113,2,2,5,4,4,2,4,2,2,,2,1,3,2,2,2,1,3,3.0–3.49,50–69%,0
+11/1/2024 13:16,Female,<18,Banking & Finance,ND I,Off-campus (private),2–5km,Public transport (bus/taxi),15–30 mins,387,,4,2,2,1,4,2,3,4,3,2,4,2,4,3,2,2,2,3.5 and above,70–89%,More than 6
+12/30/2024 19:50,Female,18–22,Banking & Finance,HND II,Off-campus (private),<2km,Public transport (bus/taxi),<15 mins,288,1,3,3,2,2,5,1,5,3,4,5,4,4,2,2,1,2,1,3.0–3.49,50–69%,0
+11/30/2024 11:27,Male,>26,Computer Science,HND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,254,4,3,4,4,3,1,3,1,1,2,,3,1,1,3,3,1,2,3.5 and above,70–89%,0
+12/15/2024 18:50,Male,23–26,Business Admin,HND I,Off-campus (private),2–5km,Other,30–60 mins,666,4,4,4,3,2,4,4,2,1,3,2,2,1,3,1,2,2,1,3.0–3.49,90% and above,0
+12/6/2024 17:45,Female,>26,Electrical Engineering,ND II,Off-campus (private),5–10km,Commercial motorcycle (Okada),>60 mins,793,2,3,3,4,2,2,3,2,3,1,1,1,1,1,2,2,1,3,3.5 and above,70–89%,0
+12/2/2024 9:12,Male,18–22,Accountancy,ND II,Off-campus (private),>10km,Personal vehicle/motorcycle,>60 mins,570,4,2,3,3,4,2,4,1,1,1,1,2,1,1,3,2,2,1,Below 2.0,70–89%,0
+11/19/2024 10:03,Female,18–22,Computer Science,HND I,Off-campus (private),2–5km,Personal vehicle/motorcycle,15–30 mins,174,3,4,4,4,3,4,3,2,3,2,2,2,3,1,1,1,1,2,3.5 and above,90% and above,1–3
+12/8/2024 18:34,Female,18–22,Business Admin,ND II,Off-campus (private),5–10km,Other,30–60 mins,376,3,3,3,,1,2,4,1,2,3,2,3,2,3,4,3,3,2,Below 2.0,90% and above,4–6
+11/4/2024 18:20,Male,18–22,Banking & Finance,ND I,Off-campus (private),2–5km,Public transport (bus/taxi),15–30 mins,744,2,2,3,2,4,4,1,5,2,4,1,5,4,1,1,1,2,2,3.0–3.49,50–69%,More than 6
+11/4/2024 7:37,Male,23–26,Accountancy,ND II,Off-campus (private),>10km,Personal vehicle/motorcycle,>60 mins,442,3,5,2,,2,3,3,3,4,3,4,3,,2,1,2,1,2,3.5 and above,90% and above,0
+12/1/2024 15:58,Female,18–22,Banking & Finance,HND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,524,3,3,3,3,1,5,3,3,5,5,5,5,5,4,3,4,4,4,2.0–2.99,50–69%,More than 6
+12/25/2024 15:10,Male,18–22,Banking & Finance,ND II,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,670,3,3,4,5,,1,5,1,4,1,2,3,3,3,4,3,5,3,3.5 and above,70–89%,0
+11/4/2024 15:05,Female,18–22,Statistics,ND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),>60 mins,610,2,5,3,3,5,1,3,3,1,,3,3,3,3,3,2,4,2,2.0–2.99,Below 50%,0
+12/25/2024 9:04,Male,18–22,Statistics,HND I,Off-campus (private),2–5km,Public transport (bus/taxi),15–30 mins,281,1,5,1,2,2,,1,5,4,4,4,5,5,3,3,3,4,3,3.5 and above,Below 50%,0
+12/9/2024 8:43,Female,23–26,Accountancy,ND I,Off-campus (private),2–5km,Walking,30–60 mins,557,1,5,1,3,1,2,3,2,3,3,3,5,4,5,4,2,4,4,3.5 and above,70–89%,0
+12/26/2024 10:25,Male,18–22,Computer Science,ND I,Off-campus (private),5–10km,Other,>60 mins,163,5,4,4,4,3,4,3,3,3,2,2,3,3,3,1,1,1,1,3.5 and above,50–69%,0
+11/8/2024 21:36,Female,18–22,Statistics,ND I,On-campus hostel,<2km,Walking,15–30 mins,61,4,2,4,5,4,1,4,2,1,2,1,2,3,1,2,2,2,1,3.5 and above,90% and above,0
+11/16/2024 16:38,Male,18–22,Electrical Engineering,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,292,3,5,,5,4,3,3,2,3,3,1,4,3,3,2,5,2,4,3.5 and above,70–89%,1–3
+11/3/2024 16:05,Female,18–22,Banking & Finance,HND I,On-campus hostel,<2km,Commercial motorcycle (Okada),15–30 mins,136,1,3,1,2,2,4,1,3,5,1,2,2,3,3,3,3,3,3,3.0–3.49,70–89%,More than 6
+11/27/2024 17:37,Male,23–26,Civil Engineering,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,715,2,4,3,2,4,4,3,5,5,5,5,4,5,1,1,1,2,1,3.0–3.49,70–89%,4–6
+12/7/2024 15:20,Female,23–26,Mass Communication,ND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,505,1,2,1,1,2,4,3,4,4,3,4,3,3,2,4,3,3,4,Below 2.0,90% and above,More than 6
+12/30/2024 11:13,Female,>26,Accountancy,HND II,Off-campus (private),2–5km,Public transport (bus/taxi),30–60 mins,192,1,4,1,1,3,,2,3,2,3,3,3,4,3,4,4,3,,3.0–3.49,50–69%,4–6
+12/13/2024 18:20,Male,23–26,Accountancy,HND II,Off-campus (private),>10km,Commercial motorcycle (Okada),30–60 mins,529,4,1,5,5,3,2,3,1,1,1,1,1,2,1,1,1,3,1,3.5 and above,70–89%,0
+11/16/2024 11:25,Male,18–22,Statistics,HND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,753,2,2,4,2,5,4,2,3,3,3,3,3,2,4,2,3,3,2,3.5 and above,70–89%,1–3
+11/9/2024 17:41,Male,23–26,Computer Science,ND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,533,5,1,3,,4,2,2,1,1,2,1,1,1,1,1,2,2,1,3.5 and above,70–89%,0
+11/20/2024 14:20,Female,18–22,Banking & Finance,ND II,Off-campus (private),<2km,Personal vehicle/motorcycle,<15 mins,503,4,4,2,4,5,5,2,2,5,,4,4,5,4,3,4,3,4,3.5 and above,50–69%,More than 6
+12/30/2024 19:59,Female,18–22,Electrical Engineering,HND II,Off-campus (private),2–5km,Personal vehicle/motorcycle,15–30 mins,533,3,3,3,3,4,1,2,4,4,4,4,3,3,1,1,1,3,1,2.0–2.99,70–89%,1–3
+11/5/2024 7:29,Male,23–26,Computer Science,HND I,On-campus hostel,<2km,Walking,15–30 mins,57,3,2,4,5,3,3,3,1,5,2,2,2,3,1,1,1,3,2,3.0–3.49,90% and above,More than 6
+12/10/2024 16:06,Male,<18,Business Admin,ND I,On-campus hostel,<2km,Walking,<15 mins,100,5,2,4,4,5,3,,1,1,,1,1,2,1,1,2,2,2,3.0–3.49,70–89%,1–3
+11/5/2024 15:13,Male,>26,Business Admin,ND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,158,5,3,4,2,4,2,2,2,3,2,1,1,2,4,5,3,3,2,Below 2.0,70–89%,4–6
+12/3/2024 11:08,Female,18–22,Civil Engineering,ND II,Off-campus (private),<2km,Personal vehicle/motorcycle,<15 mins,142,1,3,3,3,4,3,4,1,1,1,2,2,3,2,1,2,3,3,3.0–3.49,70–89%,1–3
+12/30/2024 12:56,Male,23–26,Statistics,HND II,On-campus hostel,<2km,Walking,<15 mins,61,4,2,3,3,5,1,4,2,1,1,1,3,3,2,3,3,,1,3.5 and above,70–89%,0
+11/5/2024 21:15,Female,23–26,Statistics,ND II,On-campus hostel,<2km,Walking,15–30 mins,38,3,4,4,2,4,2,3,2,4,3,3,3,,4,3,4,3,2,3.0–3.49,Below 50%,0
+11/24/2024 11:10,Male,23–26,Statistics,ND II,On-campus hostel,2–5km,Commercial motorcycle (Okada),15–30 mins,57,3,5,3,3,1,3,4,3,3,3,3,1,3,1,2,1,2,1,3.0–3.49,90% and above,0
+11/29/2024 20:34,Female,23–26,Civil Engineering,ND I,Off-campus (private),2–5km,Public transport (bus/taxi),30–60 mins,631,5,2,3,4,3,,3,3,1,2,1,2,2,1,4,3,2,3,Below 2.0,Below 50%,0
+12/16/2024 11:39,Male,23–26,Business Admin,HND I,Off-campus (private),2–5km,Walking,15–30 mins,321,1,4,2,2,1,2,2,4,5,5,5,5,5,1,1,3,1,1,3.0–3.49,50–69%,4–6
+12/22/2024 17:33,Male,18–22,Computer Science,HND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,265,1,3,3,1,2,4,2,3,3,3,5,,3,3,1,3,2,4,,Below 50%,More than 6
+11/1/2024 17:52,Female,18–22,Civil Engineering,ND II,On-campus hostel,<2km,Public transport (bus/taxi),<15 mins,28,,1,5,5,4,2,5,1,1,2,2,1,2,2,1,1,2,1,3.0–3.49,70–89%,0
+12/6/2024 11:59,Female,18–22,Civil Engineering,HND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,255,5,,4,3,2,3,3,2,2,4,3,3,5,2,1,1,2,2,3.0–3.49,70–89%,More than 6
+12/13/2024 8:56,Female,23–26,Computer Science,HND II,On-campus hostel,<2km,Personal vehicle/motorcycle,15–30 mins,70,4,3,4,5,5,2,4,3,1,2,1,1,2,1,,3,4,3,3.0–3.49,70–89%,1–3
+11/9/2024 11:07,Male,18–22,Statistics,ND I,On-campus hostel,<2km,Public transport (bus/taxi),<15 mins,91,3,3,5,4,4,3,4,3,1,1,2,1,1,1,1,1,1,2,3.0–3.49,50–69%,1–3
+12/27/2024 8:47,Male,23–26,Electrical Engineering,ND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,193,3,1,4,2,4,4,4,5,2,4,4,2,3,1,3,3,4,2,3.5 and above,50–69%,More than 6
+12/6/2024 9:17,Female,<18,Computer Science,ND I,On-campus hostel,<2km,Walking,<15 mins,126,3,4,2,2,2,3,2,1,3,3,2,4,3,1,4,2,3,4,Below 2.0,70–89%,1–3
+11/19/2024 16:13,Female,18–22,Business Admin,HND I,On-campus hostel,<2km,Commercial motorcycle (Okada),15–30 mins,133,1,4,2,1,1,5,1,,1,3,5,4,4,5,3,4,4,3,Below 2.0,50–69%,More than 6
+12/16/2024 12:13,Male,23–26,Accountancy,ND II,On-campus hostel,<2km,Walking,<15 mins,156,5,2,4,5,3,1,5,3,1,2,2,1,,2,1,1,2,1,Below 2.0,70–89%,0
+12/14/2024 17:54,Male,18–22,Banking & Finance,HND I,On-campus hostel,2–5km,Walking,15–30 mins,185,3,4,,3,4,3,2,1,1,1,3,1,1,1,2,1,1,2,3.0–3.49,70–89%,0
+11/17/2024 15:31,Male,18–22,Accountancy,HND I,On-campus hostel,2–5km,Walking,30–60 mins,144,3,2,3,3,2,4,,4,1,3,4,3,2,4,4,3,2,3,3.0–3.49,Below 50%,1–3
+11/17/2024 21:58,Female,<18,Mass Communication,ND II,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,759,,,,,,,,,,,,,,,,,,,3.5 and above,70–89%,1–3
+12/25/2024 7:05,Male,>26,Mass Communication,HND II,Off-campus (private),5–10km,Personal vehicle/motorcycle,30–60 mins,107,2,3,2,2,4,3,4,3,3,4,5,4,3,1,1,1,,1,3.0–3.49,50–69%,1–3
+12/11/2024 13:53,Male,23–26,Civil Engineering,ND II,Off-campus (private),>10km,Commercial motorcycle (Okada),30–60 mins,128,2,5,1,,2,4,2,3,4,4,4,4,4,1,,1,2,1,3.0–3.49,70–89%,1–3
+11/18/2024 7:00,Male,18–22,Banking & Finance,ND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,395,4,4,4,4,4,3,3,2,1,2,2,3,4,4,4,3,5,3,2.0–2.99,50–69%,0
+11/22/2024 19:08,Male,18–22,Accountancy,HND I,On-campus hostel,2–5km,Walking,15–30 mins,89,3,2,4,4,5,1,4,4,3,1,2,2,5,2,5,3,3,2,3.0–3.49,90% and above,More than 6
+12/11/2024 11:10,Male,18–22,Electrical Engineering,HND I,Off-campus (private),5–10km,Public transport (bus/taxi),30–60 mins,439,2,4,4,3,4,2,,4,3,4,3,5,2,3,3,3,1,2,,50–69%,4–6
+12/18/2024 14:35,Male,23–26,Statistics,ND II,Off-campus (private),5–10km,Public transport (bus/taxi),>60 mins,727,2,3,2,4,4,,4,1,1,1,1,2,2,1,2,1,1,,3.0–3.49,70–89%,0
+12/16/2024 13:35,Male,23–26,Business Admin,HND II,On-campus hostel,2–5km,Other,30–60 mins,169,3,4,3,2,2,5,2,3,,3,2,3,3,1,2,2,2,4,3.5 and above,50–69%,4–6
+11/1/2024 8:04,Female,18–22,Mass Communication,HND II,Off-campus (private),2–5km,Walking,30–60 mins,243,3,3,3,3,4,3,5,3,3,2,3,2,1,5,3,5,4,3,3.0–3.49,90% and above,1–3
+12/31/2024 21:44,Male,18–22,Electrical Engineering,ND I,On-campus hostel,<2km,Walking,<15 mins,169,3,1,4,5,4,1,4,2,1,2,3,1,3,2,2,1,1,1,3.5 and above,70–89%,More than 6
+12/28/2024 9:34,Male,18–22,Business Admin,HND II,Off-campus (private),2–5km,Commercial motorcycle (Okada),30–60 mins,144,4,3,3,2,3,1,4,3,1,4,3,4,4,2,4,3,3,3,2.0–2.99,70–89%,1–3
+11/3/2024 20:23,Female,23–26,Business Admin,ND I,Off-campus (private),5–10km,Commercial motorcycle (Okada),30–60 mins,338,3,4,2,2,3,2,4,3,2,3,4,3,,3,2,3,3,,2.0–2.99,90% and above,0
+12/8/2024 15:09,Female,23–26,Statistics,ND I,Off-campus (private),5–10km,Personal vehicle/motorcycle,30–60 mins,254,1,5,2,3,3,4,2,3,4,4,3,3,2,1,1,3,2,3,3.5 and above,90% and above,1–3
+11/28/2024 9:02,Male,18–22,Banking & Finance,ND I,Off-campus (private),2–5km,Commercial motorcycle (Okada),15–30 mins,280,4,1,4,4,2,2,2,1,2,1,1,2,1,2,1,1,3,2,3.0–3.49,70–89%,0
+11/20/2024 12:57,Male,<18,Civil Engineering,HND II,Off-campus (private),2–5km,Personal vehicle/motorcycle,15–30 mins,314,4,5,4,2,3,4,2,5,4,4,5,5,3,2,3,2,2,3,2.0–2.99,50–69%,More than 6
+12/30/2024 19:55,Male,18–22,Accountancy,HND I,Off-campus (private),<2km,Personal vehicle/motorcycle,15–30 mins,187,2,3,4,1,3,4,4,3,3,5,4,4,5,3,3,3,2,1,Below 2.0,70–89%,1–3
+11/3/2024 21:22,Female,>26,Statistics,ND I,On-campus hostel,2–5km,Personal vehicle/motorcycle,15–30 mins,103,5,1,5,5,5,1,5,1,4,1,1,1,3,1,1,1,,1,3.0–3.49,70–89%,More than 6
+11/14/2024 17:15,Female,18–22,Electrical Engineering,ND II,On-campus hostel,<2km,Personal vehicle/motorcycle,15–30 mins,58,4,3,1,2,4,3,3,4,3,3,3,3,2,3,1,2,4,2,Below 2.0,70–89%,4–6
+12/13/2024 8:22,Female,23–26,Civil Engineering,HND I,Off-campus (private),>10km,Walking,30–60 mins,172,4,1,2,3,3,2,3,2,4,5,2,4,2,2,2,2,2,3,3.0–3.49,70–89%,More than 6
+12/20/2024 15:56,Female,23–26,Electrical Engineering,ND I,Off-campus (private),5–10km,Personal vehicle/motorcycle,>60 mins,278,3,3,1,1,2,4,2,5,,5,5,3,5,5,3,4,3,2,,50–69%,0
+12/26/2024 13:39,Female,18–22,Civil Engineering,HND II,Off-campus (private),<2km,Personal vehicle/motorcycle,15–30 mins,311,3,1,2,4,1,2,2,2,,3,3,3,4,2,1,4,1,1,3.5 and above,70–89%,More than 6

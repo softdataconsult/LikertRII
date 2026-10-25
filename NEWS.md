@@ -1,3 +1,13 @@
+# RII (development version)
+
+* `plot.rii_table()` now splits CamelCase / snake_case item names into
+  separate words (e.g. `SubstandardMaterials` -> `Substandard Materials`)
+  and wraps long labels onto several lines, so labels no longer run
+  together. New arguments `pretty_labels` and `wrap_width`. On very small
+  plotting devices, a label margin that would squeeze the bars is now
+  rejected so the compact fallbacks are used.
+
+
 # RII 0.1.0
 
 Initial release.

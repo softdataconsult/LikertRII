@@ -68,6 +68,22 @@ plot(tbl)
 grDevices::dev.off()
 stopifnot(file.exists(tmp))
 
+## --- plot labels: CamelCase / snake_case names are split into words -------
+pretty <- RII:::prettify_item_names(
+  c("SubstandardMaterials", "Q1_NotifyDuringLecture", "RIIValue",
+    "Already Spaced", "OJ1"))
+stopifnot(identical(pretty,
+  c("Substandard Materials", "Q1 Notify During Lecture", "RII Value",
+    "Already Spaced", "OJ1")))
+## plotting with and without prettifying, and on a very small device, must
+## not error (long labels wrap rather than run together)
+for (dims in list(c(800, 600), c(300, 250))) {
+  grDevices::png(tempfile(fileext = ".png"), width = dims[1], height = dims[2])
+  plot(tbl)
+  plot(tbl, pretty_labels = FALSE, wrap_width = 15)
+  grDevices::dev.off()
+}
+
 ## --- read_rii_excel: raw layout -------------------------------------------
 raw_path <- system.file("extdata", "rii_raw_example.xlsx", package = "RII")
 stopifnot(nzchar(raw_path))
