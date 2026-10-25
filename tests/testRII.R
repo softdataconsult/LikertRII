@@ -77,10 +77,11 @@ stopifnot(identical(pretty,
     "Already Spaced", "OJ1")))
 ## plotting with and without prettifying, and on a very small device, must
 ## not error (long labels wrap rather than run together)
-for (dims in list(c(800, 600), c(300, 250))) {
+for (dims in list(c(800, 600), c(300, 250), c(250, 150), c(500, 140))) {
   grDevices::png(tempfile(fileext = ".png"), width = dims[1], height = dims[2])
   plot(tbl)
   plot(tbl, pretty_labels = FALSE, wrap_width = 15)
+  plot(tbl, cex.main = 1)  # user-supplied graphical args still work
   grDevices::dev.off()
 }
 

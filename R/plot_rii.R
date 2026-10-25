@@ -83,7 +83,23 @@ plot.rii_table <- function(x, top_n = NULL, col = "#008751",
       avail <- 0.45 * graphics::par("din")[1] / graphics::par("csi")
       if (mar_left > avail) stop("label margin too wide for device")
     }
-    op <- graphics::par(mar = c(5, mar_left, 4, 3))
+    # Scale every margin to the actual device size, so a short or narrow
+    # plotting pane cannot trigger "figure margins too large". On the final
+    # (most compact) attempt the left margin is also capped, which
+    # guarantees the plot fits.
+    din <- graphics::par("din")
+    csi <- graphics::par("csi")
+    lines_w <- din[1] / csi
+    lines_h <- din[2] / csi
+    if (!check_fit) mar_left <- min(mar_left, 0.4 * lines_w)
+    mar_bottom <- min(5, max(1.5, 0.22 * lines_h))
+    mar_top    <- min(4, max(1.0, 0.18 * lines_h))
+    mar_right  <- min(3, max(0.5, 0.05 * lines_w))
+    op <- graphics::par(
+      mar = c(mar_bottom, mar_left, mar_top, mar_right),
+      mgp = c(max(1, min(3, mar_bottom - 1.2)), 0.6, 0),
+      cex.main = if (mar_top < 3) 0.8 else 1.2
+    )
     on.exit(graphics::par(op))
 
     bp <- graphics::barplot(
