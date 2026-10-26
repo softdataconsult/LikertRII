@@ -1,14 +1,21 @@
-# RII (development version)
+# LikertRII (development version)
+
+* The package has been renamed from `RII` to `LikertRII`, because the name
+  `RII` is already used on CRAN by an unrelated (archived) package for the
+  Relative Index of Inequality. Install with
+  `remotes::install_github("softdataconsult/LikertRII")` and load with
+  `library(LikertRII)`. All functions are unchanged.
 
 * `plot.rii_table()` now splits CamelCase / snake_case item names into
   separate words (e.g. `SubstandardMaterials` -> `Substandard Materials`)
   and wraps long labels onto several lines, so labels no longer run
   together. New arguments `pretty_labels` and `wrap_width`. On very small
   plotting devices, a label margin that would squeeze the bars is now
-  rejected so the compact fallbacks are used.
+  rejected so the compact fallbacks are used, and top/bottom/right margins
+  now scale to the device size, so `plot()` no longer fails with "figure
+  margins too large" in a short or narrow Plots pane.
 
-
-# RII 0.1.0
+# LikertRII 0.1.0
 
 Initial release.
 
@@ -37,7 +44,7 @@ Initial release.
     ten barriers to climate-smart agriculture adoption (4-point scale) —
     a non-construction example showing the package works for any domain
     and any scale range.
-* "Getting Started with RII" vignette.
+* "Getting Started with LikertRII" vignette.
 * `plot.rii_table()` automatically shortens item labels and shrinks text
   in small plotting windows instead of failing with base R's
   "figure margins too large" error; `max_label_chars` and `cex.names`

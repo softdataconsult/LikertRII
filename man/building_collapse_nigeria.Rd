@@ -42,7 +42,7 @@ Simulated by SoftData Consult for teaching purposes, with
 building_collapse_nigeria
 }
 \description{
-A worked example dataset for the RII package: a simulated survey of 150
+A worked example dataset for the LikertRII package: a simulated survey of 150
 construction professionals across seven Nigerian states, rating ten
 commonly cited causes of building collapse on a 5-point Likert scale
 (1 = Not significant, 5 = Extremely significant). Rating patterns are

@@ -1,7 +1,7 @@
-# RII
+# LikertRII
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/softdataconsult/RII/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/softdataconsult/RII/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/softdataconsult/LikertRII/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/softdataconsult/LikertRII/actions/workflows/R-CMD-check.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
@@ -43,13 +43,13 @@ researchers moving from Excel to R.
 
 ```r
 install.packages("remotes")
-remotes::install_github("softdataconsult/RII")
+remotes::install_github("softdataconsult/LikertRII")
 ```
 
 ## Quick start
 
 ```r
-library(RII)
+library(LikertRII)
 
 # Bundled example: 150 Nigerian construction professionals rating
 # 10 perceived causes of building collapse on a 5-point scale
@@ -181,7 +181,7 @@ rii_table(data, scale_min = 0, scale_max = 4,
   applies just as well outside construction and on non-5-point scales.
 
 ```r
-library(RII)
+library(LikertRII)
 
 data(csa_adoption_barriers_nigeria)
 barriers <- csa_adoption_barriers_nigeria[, 6:15]
@@ -191,13 +191,13 @@ rii_table(barriers, scale_max = 4)
 ## Citing this package
 
 ```r
-citation("RII")
+citation("LikertRII")
 ```
 
 ```
-Ajao I (2026). RII: Relative Importance Index for Likert-Scale
+Ajao I (2026). LikertRII: Relative Importance Index for Likert-Scale
 Survey Data. R package version 0.1.0,
-<https://github.com/softdataconsult/RII>.
+<https://github.com/softdataconsult/LikertRII>.
 ```
 
 GitHub also shows a "Cite this repository" button (top-right of the repo
@@ -214,11 +214,11 @@ page) for an APA-style citation or BibTeX, generated from `CITATION.cff`.
   — file import/export
 * `?building_collapse_nigeria`, `?csa_adoption_barriers_nigeria` — the
   bundled example datasets
-* `vignette("RII-intro", package = "RII")` — worked walkthrough
+* `vignette("LikertRII-intro", package = "LikertRII")` — worked walkthrough
 
 ## Contact & Support
 
-* **Bug reports and feature requests:** [GitHub Issues](https://github.com/softdataconsult/RII/issues)
+* **Bug reports and feature requests:** [GitHub Issues](https://github.com/softdataconsult/LikertRII/issues)
 * **Email:** softdataconsult@gmail.com
 * **Ekiti R-Users Group:** [YouTube (@softdataconsult)](https://www.youtube.com/@softdataconsult)
 

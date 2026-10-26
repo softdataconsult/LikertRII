@@ -1,4 +1,4 @@
-Package: RII
+Package: LikertRII
 Type: Package
 Title: Relative Importance Index for Likert-Scale Survey Data
 Version: 0.1.0
@@ -33,5 +33,5 @@ Depends: R (>= 3.5.0)
 Imports: stats, graphics, grDevices, utils
 Suggests: testthat (>= 3.0.0), readxl, openxlsx, haven, knitr, rmarkdown
 VignetteBuilder: knitr
-URL: https://github.com/softdataconsult/RII
-BugReports: https://github.com/softdataconsult/RII/issues
+URL: https://github.com/softdataconsult/LikertRII
+BugReports: https://github.com/softdataconsult/LikertRII/issues

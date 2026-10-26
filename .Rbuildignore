@@ -4,12 +4,11 @@
 ^.*\.Rproj$
 ^\.github$
 ^CITATION\.cff$
-^class_attd_rii_results\.xlsx$
-^maintenance_rii_results\.xlsx$
-^methodology and citation\.docx$
 ^cran-comments\.md$
 ^\.RData$
 ^\.Rhistory$
+^.*_rii_results\.xlsx$
+^methodology and citation\.docx$
 ^Social_media_new\.csv$
 ^road_infra_survey_raw\.csv$
 ^road_quality_rii_results\.xlsx$

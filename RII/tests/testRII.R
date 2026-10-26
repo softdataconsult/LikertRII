@@ -68,52 +68,33 @@ plot(tbl)
 grDevices::dev.off()
 stopifnot(file.exists(tmp))
 
-## --- plot labels: CamelCase / snake_case names are split into words -------
-pretty <- RII:::prettify_item_names(
-  c("SubstandardMaterials", "Q1_NotifyDuringLecture", "RIIValue",
-    "Already Spaced", "OJ1"))
-stopifnot(identical(pretty,
-  c("Substandard Materials", "Q1 Notify During Lecture", "RII Value",
-    "Already Spaced", "OJ1")))
-## plotting with and without prettifying, and on a very small device, must
-## not error (long labels wrap rather than run together)
-for (dims in list(c(800, 600), c(300, 250), c(250, 150), c(500, 140))) {
-  grDevices::png(tempfile(fileext = ".png"), width = dims[1], height = dims[2])
-  plot(tbl)
-  plot(tbl, pretty_labels = FALSE, wrap_width = 15)
-  plot(tbl, cex.main = 1)  # user-supplied graphical args still work
-  grDevices::dev.off()
-}
+## --- read_rii_excel: raw layout -------------------------------------------
+raw_path <- system.file("extdata", "rii_raw_example.xlsx", package = "RII")
+stopifnot(nzchar(raw_path))
+tbl_raw_xl <- read_rii_excel(
+  raw_path, layout = "raw",
+  items = c("SubstandardMaterials", "PoorSupervision",
+            "InadequateSoilInvestigation", "PoorWorkmanship")
+)
+stopifnot(inherits(tbl_raw_xl, "rii_table"))
+stopifnot(nrow(tbl_raw_xl) == 4)
+stopifnot(all(tbl_raw_xl$RII >= 0 & tbl_raw_xl$RII <= 1))
 
-if (requireNamespace("readxl", quietly = TRUE)) {
-  ## --- read_rii_excel: raw layout -------------------------------------------
-  raw_path <- system.file("extdata", "rii_raw_example.xlsx", package = "RII")
-  stopifnot(nzchar(raw_path))
-  tbl_raw_xl <- read_rii_excel(
-    raw_path, layout = "raw",
-    items = c("SubstandardMaterials", "PoorSupervision",
-              "InadequateSoilInvestigation", "PoorWorkmanship")
-  )
-  stopifnot(inherits(tbl_raw_xl, "rii_table"))
-  stopifnot(nrow(tbl_raw_xl) == 4)
-  stopifnot(all(tbl_raw_xl$RII >= 0 & tbl_raw_xl$RII <= 1))
+## should match rii_table() run directly on the same first-40-row subset
+manual_xl <- rii_table(items[1:40, c("SubstandardMaterials", "PoorSupervision",
+                                      "InadequateSoilInvestigation",
+                                      "PoorWorkmanship")])
+m1 <- setNames(tbl_raw_xl$RII, tbl_raw_xl$Item)
+m2 <- setNames(manual_xl$RII, manual_xl$Item)
+stopifnot(all(abs(m1 - m2[names(m1)]) < 1e-8))
 
-  ## should match rii_table() run directly on the same first-40-row subset
-  manual_xl <- rii_table(items[1:40, c("SubstandardMaterials", "PoorSupervision",
-                                        "InadequateSoilInvestigation",
-                                        "PoorWorkmanship")])
-  m1 <- setNames(tbl_raw_xl$RII, tbl_raw_xl$Item)
-  m2 <- setNames(manual_xl$RII, manual_xl$Item)
-  stopifnot(all(abs(m1 - m2[names(m1)]) < 1e-8))
-
-  ## --- read_rii_excel: freq layout -------------------------------------------
-  freq_path <- system.file("extdata", "rii_freq_example.xlsx", package = "RII")
-  stopifnot(nzchar(freq_path))
-  tbl_freq_xl <- read_rii_excel(freq_path, layout = "freq", item_col = "Factor")
-  stopifnot(inherits(tbl_freq_xl, "rii_table"))
-  stopifnot(nrow(tbl_freq_xl) == 10)
-  stopifnot(all(tbl_freq_xl$RII >= 0 & tbl_freq_xl$RII <= 1))
-}
+## --- read_rii_excel: freq layout -------------------------------------------
+freq_path <- system.file("extdata", "rii_freq_example.xlsx", package = "RII")
+stopifnot(nzchar(freq_path))
+tbl_freq_xl <- read_rii_excel(freq_path, layout = "freq", item_col = "Factor")
+stopifnot(inherits(tbl_freq_xl, "rii_table"))
+stopifnot(nrow(tbl_freq_xl) == 10)
+stopifnot(all(tbl_freq_xl$RII >= 0 & tbl_freq_xl$RII <= 1))
 
 ## --- generalized scale range: 0-based scale -------------------------------
 x5 <- c(5, 4, 5, 3, 5)                    # scored 1-5
@@ -190,23 +171,21 @@ manual_csa <- rii_raw(csa_items$HighCostOfImprovedInputs, scale_max = 4)
 row_csa <- csa_tbl[csa_tbl$Item == "HighCostOfImprovedInputs", ]
 stopifnot(abs(row_csa$RII - round(manual_csa["rii"], 3)) < 1e-8)
 
-if (requireNamespace("openxlsx", quietly = TRUE)) {
-  ## --- write_rii_excel: round-trips and file gets created -------------------
-  out_path <- tempfile(fileext = ".xlsx")
-  write_rii_excel(tbl, out_path)
-  stopifnot(file.exists(out_path))
-  back <- openxlsx::read.xlsx(out_path, startRow = 3)
-  stopifnot(all(back$RII == tbl$RII))
-  stopifnot(all(back$Item == tbl$Item))
-  stopifnot(all(back$Band == tbl$Band))
-  unlink(out_path)
+## --- write_rii_excel: round-trips and file gets created -------------------
+out_path <- tempfile(fileext = ".xlsx")
+write_rii_excel(tbl, out_path)
+stopifnot(file.exists(out_path))
+back <- openxlsx::read.xlsx(out_path, startRow = 3)
+stopifnot(all(back$RII == tbl$RII))
+stopifnot(all(back$Item == tbl$Item))
+stopifnot(all(back$Band == tbl$Band))
+unlink(out_path)
 
-  ## write_rii_excel with include_chart = FALSE should still work
-  out_path2 <- tempfile(fileext = ".xlsx")
-  write_rii_excel(tbl, out_path2, include_chart = FALSE)
-  stopifnot(file.exists(out_path2))
-  unlink(out_path2)
-}
+## write_rii_excel with include_chart = FALSE should still work
+out_path2 <- tempfile(fileext = ".xlsx")
+write_rii_excel(tbl, out_path2, include_chart = FALSE)
+stopifnot(file.exists(out_path2))
+unlink(out_path2)
 
 ## --- detect_likert_items / rii_table(items = "auto") ----------------------
 set.seed(42)

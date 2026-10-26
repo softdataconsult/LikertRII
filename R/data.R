@@ -1,6 +1,6 @@
 #' Perceived causes of building collapse in Nigeria
 #'
-#' A worked example dataset for the RII package: a simulated survey of 150
+#' A worked example dataset for the LikertRII package: a simulated survey of 150
 #' construction professionals across seven Nigerian states, rating ten
 #' commonly cited causes of building collapse on a 5-point Likert scale
 #' (1 = Not significant, 5 = Extremely significant). Rating patterns are
@@ -98,9 +98,9 @@
 #' tbl
 "csa_adoption_barriers_nigeria"
 
-#' RII: Relative Importance Index for Likert-Scale Survey Data
+#' LikertRII: Relative Importance Index for Likert-Scale Survey Data
 #'
-#' The RII package computes the Relative Importance Index (RII), along
+#' The LikertRII package computes the Relative Importance Index (RII), along
 #' with means, standard deviations and ranks, from Likert-scale survey
 #' data — the calculation environmental, construction and social science
 #' researchers usually do by hand in a spreadsheet.
