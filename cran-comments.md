@@ -21,3 +21,6 @@ This is a new submission (version 0.1.0).
 * The packages 'readxl', 'openxlsx' and 'haven' are in Suggests. Functions
   that need them check for them with `requireNamespace()` and give a clear
   error if they are missing; examples and tests that use them are guarded.
+  
+* 'Likert' (the Likert scale) and 'RII' (Relative Importance Index) are
+  correct technical terms, not misspellings.
