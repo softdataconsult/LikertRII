@@ -4,7 +4,7 @@ Title: Relative Importance Index for Likert-Scale Survey Data
 Version: 0.1.0
 Authors@R: person(given = "Isaac", family = "Ajao",
     email = "softdataconsult@gmail.com",
-    role = c("aut", "cre"),
+    role = c("aut", "cre", "cph"),
     comment = c(ORCID = "0000-0002-3403-6082"))
 Description: Computes the Relative Importance Index (RII), together with
     means, standard deviations and ranks, from Likert-scale survey data of
@@ -16,8 +16,8 @@ Description: Computes the Relative Importance Index (RII), together with
     spreadsheet.
     This package computes it from raw item-level responses, ready-made
     frequency tables, or straight from an 'Excel', 'CSV' or 'SPSS' file, on any
-    Likert scale range and with optional reverse-scoring of negatively-
-    worded items. Real-world survey exports are handled directly: item
+    Likert scale range and with optional reverse-scoring of
+    negatively-worded items. Real-world survey exports are handled directly: item
     columns can be auto-detected from naming conventions or from text
     Likert wording ("Strongly Agree", "Disagree", ...), even when mixed
     in with demographic or ID columns. Items are ranked automatically,
